@@ -1,0 +1,5 @@
+# node_modules is not required. When you run npm install in your local machine, node_modules folder will be created in your machine with all the dependencies.
+node_modules
+
+# dist is not required. When you run npm start, webpack will create dist folder with all the bnundles files.
+dist
