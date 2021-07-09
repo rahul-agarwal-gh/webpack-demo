@@ -5,7 +5,8 @@ const { merge } = require("webpack-merge");
 module.exports = merge(common, {
   mode: "development",
   output: {
-    filename: "main.js",
+    filename: "[name].bundle.js", //changed output file name to dynamic as we have two entry points file. so based on entry file,
+    //different output files will be created.
     path: path.resolve(__dirname, "dist")
   },
 });
